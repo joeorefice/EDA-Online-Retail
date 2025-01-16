@@ -54,6 +54,28 @@ order by item_count desc
 limit 1;
 
 
+-- Invoice totals and country per invoice
+
+select invoice_no, round(sum(quantity * unit_price)) as invoice_total, country
+from sys.online_retail
+group by invoice_no, country
+order by country asc;
+
+
+-- Average Transaction Value
+
+select round(sum(quantity * unit_price) / count(distinct invoice_no), 2) as atv
+from sys.online_retail;
+
+
+-- Average Transaction Value per country
+
+select country, round(sum(quantity * unit_price) / count(distinct invoice_no), 2) as atv
+from sys.online_retail
+group by country
+order by round(sum(quantity * unit_price) / count(distinct invoice_no), 2) desc;
+
+
 -- aggregating revenue and transaction count by country
 
 select country,
