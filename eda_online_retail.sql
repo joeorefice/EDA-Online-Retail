@@ -56,10 +56,10 @@ limit 1;
 
 -- Invoice totals and country per invoice
 
-select invoice_no, round(sum(quantity * unit_price)) as invoice_total, country
+select invoice_no, invoice_date, round(sum(quantity * unit_price)) as invoice_total, country
 from sys.online_retail
-group by invoice_no, country
-order by country asc;
+group by 1, 2, 4
+order by 2 asc;
 
 
 -- Average Transaction Value
