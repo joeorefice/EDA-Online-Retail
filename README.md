@@ -20,7 +20,7 @@ Using SQL and Tableau, I extracted and analyzed transaction data from the online
 ### Methodology: 
 
 SQL:
-* Created SQL queries that aggregate the data in the database and output invoice totals, average transaction values for invoices by country, revenue and transacton counts by country, and monthly revenue totals per country.
+* Created [SQL queries](https://github.com/joeorefice/EDA-Online-Retail/blob/main/eda_online_retail.sql) that aggregate the data in the database and output invoice totals, average transaction values for invoices by country, revenue and transacton counts by country, and monthly revenue totals per country.
 
 Tableau:
 * Built a [dashboard in Tableau](https://public.tableau.com/app/profile/joe.orefice/viz/EDA-Online-Retail/Dashboard1) to visualise the resulting data aggregation.
