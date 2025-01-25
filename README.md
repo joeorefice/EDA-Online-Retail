@@ -2,11 +2,11 @@
 
 ## Executive Summary:
 
-Using SQL and Tableau, I extracted and analyzed transaction data from the online retailer's database to identify sales trends by country on both annual and monthly levels. The analysis revealed that the retailer's primary sales come from the United Kingdom, which accounts for 84% of total revenue and 91% of all transactions. However, other countries such as Germany, France and Ireland show seasonal spikes, particularly during the last quarter of the year. The insights can guide targeted marketing campaigns for these areas.
+Using SQL and Tableau, I extracted and analysed transaction data from an online retailer's database to identify sales trends by country on both annual and monthly levels. The analysis revealed that the retailer's primary sales come from the UK, which accounts for 84% of total revenue and 91% of all transactions. However, other countries such as Germany, France and Ireland show seasonal spikes, particularly during the last quarter of the year. The insights can guide targeted marketing campaigns for these areas.
 
 ## Key Recommendations:
 1. Increase marketing efforts in non-UK countries during seasonal peaks.
-2. Optimize inventory to meet demand spikes during Q4 globally.
+2. Optimise inventory to meet demand spikes during Q4 globally.
 3. Focus on improving customer retention strategies in underperforming markets.
 <br/>
 
@@ -33,7 +33,7 @@ Analysis:
 ### Skills:
 
 * SQL: Aggregate functions, Window functions, date manipulation
-* Tableau: ETL, calculated fields, data visualization
+* Tableau: ETL, calculated fields, data visualisation
 * Data Analysis: Trend identification, seasonal pattern analysis, actionable insights
 <br/>
 
@@ -57,7 +57,7 @@ Develop Regional Marketing Campaigns:
 * Use insights from Tableau heatmaps to allocate budget effectively.
 
 Refine Inventory Forecasting:
-* Integrate sales trends into inventory models to minimize stockouts and overstock.
+* Integrate sales trends into inventory models to minimise stockouts and overstock.
 
 Track KPIs:
 * Monitor monthly sales growth rates and customer retention metrics for targeted markets.
